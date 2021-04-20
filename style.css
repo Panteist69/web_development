@@ -39,6 +39,9 @@ ul > li {
     background: url('./img/hero-bg.jpg') center center / cover no-repeat;
     min-height: 700px;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 .main-menu__list{
@@ -75,9 +78,7 @@ ul > li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 25%;
-    left: 24%;
+    position: absolute;  
 }
 .hero__title{
     font-size: 50px;
@@ -580,7 +581,7 @@ color: black;
 #contacts{
     display: flex;
     justify-content: center;
-    background: url('./img/footer_background.jpg')no-repeat;
+    background: url('./img/footer_background.jpg') center center / cover no-repeat;
 }
 .contacts__box{
     width: 1030px;
